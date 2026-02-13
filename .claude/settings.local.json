@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3.11:*)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
