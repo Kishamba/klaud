@@ -4,28 +4,28 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Virtualenv
 .venv/
 venv/
 env/
-.env
 
-# Project data
-data/candles/
+# Env secrets
+.env
+.env.*
+
+# Project runtime
+data/
+logs/
 results/
-logs/*.log
-configs/best.yaml
-configs/best.json
 
-# Sensitive
-.env
-
-# OS
+# OS / IDE
 .DS_Store
 *.swp
-
-# IDE
 .idea/
 .vscode/
+
+# Build
 *.egg-info/
 dist/
 build/
